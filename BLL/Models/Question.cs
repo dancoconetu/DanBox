@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BusinessLogicLayer.Providers
+namespace BLL.Models
 {
-    class Class1
+    public class Question
     {
     }
 }

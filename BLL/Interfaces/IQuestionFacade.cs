@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BusinessLogicLayer.Facades
+namespace BLL.Interfaces
 {
-    class Class1
+    class IQuestionFacade
     {
     }
 }

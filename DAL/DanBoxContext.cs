@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccessLayer.Repositories
+namespace DAL
 {
-    class DatabaseConnection
+    class DanBoxContext
     {
+
     }
 }
