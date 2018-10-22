@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BLL.Interfaces
 {
-    class IQuestionFacade
+    public class IQuestionFacade
     {
     }
 }

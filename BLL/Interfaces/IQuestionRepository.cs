@@ -7,6 +7,6 @@ namespace BLL.Interfaces
 {
     public interface IQuestionRepository
     {
-       IEnumerable<Question> getQuestions();
+       IEnumerable<Question> GetQuestions();
     }
 }

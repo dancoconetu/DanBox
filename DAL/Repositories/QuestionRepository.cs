@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using BusinessLogicLayer.Interfaces;
-using BusinessLogicLayer.Models;
+using BLL.Interfaces;
+using BLL.Models;
 
 namespace DataAccessLayer.Repositories
 {
-    class QuestionRepository : IQuestionRepository
+     public class QuestionRepository : IQuestionRepository
     {
-        public IEnumerable<Question> getQuestions()
+        public IEnumerable<Question> GetQuestions()
         {
             throw new NotImplementedException();
         }
