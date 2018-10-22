@@ -16,14 +16,19 @@ namespace ServiceLayer.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
+        /// <summary> 
+        /// Get question by id
+        /// </summary>
+        /// <param name="id">The id of the question to be returned </param> 
+        /// <returns></returns>
+        // GET api/questions/
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST api/values
+        // POST api/questions
         [HttpPost]
         public void Post([FromBody]string value)
         {
