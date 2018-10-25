@@ -7,6 +7,12 @@ namespace BLL.Interfaces
 {
     public interface IQuestionRepository
     {
-       IEnumerable<Question> GetQuestions();
+        IEnumerable<Question> GetQuestions();
+        Question GetQuestion(Guid id);
+        Guid CreateQuestion(Question question);
+        bool DeleteQuestion(Guid id);
+        bool UpdateQuestion(Guid id, Question question);
+
+
     }
 }
