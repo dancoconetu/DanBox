@@ -9,8 +9,10 @@ namespace BLL.Interfaces
     {
         IEnumerable<Question> GetQuestions();
         Question GetQuestion(Guid id);
-        Guid CreateQuestion(string text, string answer1, string answer2, string answer3, string answer4, string correctAnswer, ICollection<QuestionTag> questionTags);
+        Guid CreateQuestion(Question question);
         bool DeleteQuestion(Guid id);
-        bool UpdateQuestion(Guid id, string text, string answer1, string answer2, string answer3, string answer4, string correctAnswer, ICollection<QuestionTag> questionTags);
+        bool UpdateQuestion(Guid id, Question question);
+
+
     }
 }

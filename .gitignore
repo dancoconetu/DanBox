@@ -402,3 +402,5 @@ typings/
 
 # Serverless directories
 .serverless
+
+SL/appsettings.json
